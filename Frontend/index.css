@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.search-box {
+  display: flex;
+  margin: 20px auto;   /* auto left/right centers it */
+  width: 400px;
+  background: white;
+  border-radius: 30px;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.search-box button {
+  border: none;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #555;
+}
+
+
+/* Content Section Styling */
+.content-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.content-container h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.content-container p {
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.full-container { 
+  max-width: 1400px;
+  margin: 0 auto;      /* <-- center with equal space on left and right */
+  height: 80vh;   
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+
+.container {
+  max-width: 1200px;   /* container width */
+  margin: 0 auto;      /* centers container with space on both sides */
+  padding: 20px;       /* inner space */
+  background-color: white;
+  min-height: 100vh;   /* full height */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
