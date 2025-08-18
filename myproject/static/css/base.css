@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding:0px;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+@font-face {
+  font-family:bundle;
+  src: url(../../assets/fonts/bundle-font-1755412877-0/Bundle-BF689f490f27f25.ttf);
+}
+/* Search Box Styling */
+    .search_box {
+      display: flex;
+      background: white;
+      border: 2px solid lightblue; 
+      border-radius: 5px;
+      overflow: hidden;
+      width: 450px; /* Adjust size*/
+      height: 40px;
+      margin-left: 20px;
+    }
+
+    .search_box input {
+      flex: 1;
+      border: none;
+      padding: 12px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .search_box button {
+      background: lightblue;
+      width: 50px;
+      border: none;
+      padding: auto;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .search_box button:hover {
+      background: rgb(137, 215, 242); /* Darker orange on hover */
+    }
+
+/* Content Section Styling */
+.content-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.content-container h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.content-container p {
+  line-height: 1.6;
+  color: #555;
+}
+
+
+.full-container { 
+  max-width: 1400px;
+  margin: 0 auto;      /* <-- center with equal space on left and right */
+  height: 80vh;   
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+
+
+.container {
+  max-width: 1200px;   /* container width */
+  margin: 0 auto;      /* centers container with space on both sides */
+  padding: 20px;       /* inner space */
+  background-color: white;
+  min-height: 100vh;   /* full height */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nav_container{
+    height: 50px;
+}
+.navbar-brand{
+  font-family: bundle;
+  font-size: 30px;
+  padding-left: 15px;
+}
+.search-box{
+    width: 200px;
+    height: 40px;
+}
+.sign_in_up{
+  font-size: 30px;
+  float: left;
+  padding: 20px auto;
+}
+.sign_in{
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  background-color:lightblue;
+  width: 80px;
+}
+.sign_in:hover{
+  background-color:rgb(137, 215, 242); 
+  color: #333;
+}
