@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="verify-container">
+  <h2>Email Verification</h2>
+
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+    {% endfor %}
+  {% endif %}
+
+  <form method="POST">
+    {% csrf_token %}
+    <input type="hidden" name="username" value="{{ username }}">
+    <div>
+      <label>Enter Verification Code</label>
+      <input type="text" name="code" required>
+    </div>
+    <button type="submit">Verify</button>
+  </form>
+</div>
+{% endblock %}

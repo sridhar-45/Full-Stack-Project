@@ -1,0 +1,50 @@
+body {
+    background-color: #f7f9fc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* container that keeps content centered, even with navbar */
+.main-container {
+    min-height: calc(100vh - 56px); /* subtract navbar height (default Bootstrap = 56px) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* login card styling */
+.login-card {
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 20px  #646f7a;
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-login {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.extra-links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.extra-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
