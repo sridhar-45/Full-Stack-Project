@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav_container">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MyWebsite</a>
+      <!-- search box -->
+        <div class="search_box">
+            <input type="text" placeholder="Search Inistitute...">
+            <button>🔍</button>
+        </div>
+  
+      <!-- signin element -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#" class="login-link">Login <span class="arrow">›</span></a>
+            </li>
+          </ul>        
+      </div>
+    </div>
+  </nav>
+
+  <!-- fixed Home-About-Services-Contact enu -->
+  <div id="home_elements_container">
+    <a href="" class="home_elements">Home</a>
+    <a href="" class="home_elements">About</a>
+    <a href="" class="home_elements">Services</a>
+    <a href="" class="home_elements">Contact</a>
+  </div>
+
+
+
+   <!-- Main Content Section -->
+  <div class="full-container">
+    <div class="content-container content">
+      <h1>Welcome to My Website</h1>
+      <p>
+        This is the formal content section of your webpage.  
+        Here, you can introduce your institute, organization, or services.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Donec vehicula, nulla id scelerisque viverra, est elit varius sapien, 
+        at commodo urna purus vel justo. 
+      </p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
